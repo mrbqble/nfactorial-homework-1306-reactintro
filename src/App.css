@@ -10,7 +10,7 @@
     display: flex;
 }
 .field {
-    width: 150px;
+    width: 250px;
     height: 40px;
     background-color: grey;
     margin-left: 20px;
@@ -58,5 +58,8 @@
     .hw div {
         height: 20%;
         width: 100%;
+    }
+    .time {
+        visibility: hidden;
     }
 } 
