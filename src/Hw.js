@@ -25,7 +25,7 @@ export default function Hw() {
           <img src={facebook} alt="facebook icon" width={40} height={40} />
           <div className='field'></div>
         </div>
-        <div style={{ color: "white", }}>{time}</div>
+        <div className='time' style={{ color: "white", }}>{time}</div>
       </div>
     )
   }
