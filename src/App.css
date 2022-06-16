@@ -1,9 +1,29 @@
+.navbar {
+    background-color: rgb(48, 47, 47);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+.icon {
+    display: flex;
+}
+.field {
+    width: 150px;
+    height: 40px;
+    background-color: grey;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
 .hw {
     display: flex;
     flex-direction: row;
     color: white;
     font-size: 34px;
     font-weight: bold;
+    height: 100vh;
 }
 .hw div {
     display: flex;
@@ -12,7 +32,7 @@
     background-position: center;
     background-size: cover;
     width: 20%;
-    height: 100vh;
+    height: 100%;
 }
 .img1 {
     background-image: url("./img/1.jpeg");
@@ -29,3 +49,14 @@
 .img5 {
     background-image: url("./img/5.jpeg");
 }
+
+@media only screen and (max-width: 900px) {
+    .hw {
+        flex-direction: column;
+        width: 100vw;
+    }
+    .hw div {
+        height: 20%;
+        width: 100%;
+    }
+} 
